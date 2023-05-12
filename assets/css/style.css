@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@200;300;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.btn-md {
+    font-weight: 700 !important;
+    border: 1px solid rgb(172, 172, 172) !important;
+    border-radius: 18px !important;
+    background-color: #fff !important;
+    color: #7C7B7A !important;
+}
+
+.btn-active {
+    border-color: #FFEDEA !important;
+    background-color: #FFEDEA !important;
+    color: #EA1D2C !important;
+}
+
+.sub-menu {
+    width: 450px !important;
+}
+
+.card-receitas {
+    background-color: #EA1D2C !important;
+    width: 24.375rem;
+    height: 5.625rem;
+    /* padding: 0.938rem; */
+    /* margin-left: 0.813rem; */
+    margin-top: 1.538rem;
+    border-radius: 1rem !important;
+}
+
+.left {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    background-color: #C90016 !important;
+}
+
+.right {
+    color: #ffffff;
+    font-weight: 500;
+    width: 65%;
+    background-color: #EA1D2C;
+    border-radius: 1rem;
+}
+
+.right p:nth-child(1) {
+    margin-right: 1.875rem;
+}
+
+.right p:nth-child(2) {
+    margin-right: 2.175rem !important;
+}
+
+.card-chefs {
+    /* margin-left: 1.175rem !important; */
+    width: 29.063rem !important;
+    margin-top: 2.125rem;
+}
+
+.card-chefs img {
+    width: 7rem;
+}
+
+.card-chefs p {
+    font-size: 0.95rem;
+    white-space: nowrap;
+    font-weight: 800;
+    color: #7C7B7A !important;
+}
+
+.card-aprenda {
+    border: none !important;
+    width: 24.375rem;
+    height: 5.625rem;
+    background-color:#F8F8F8 !important;
+    /* margin-left: 0.813rem; */
+}
+
+.qrcode img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.titulo h4 {
+    font-weight: 600;
+    /* font-size: 1.1rem; */
+    margin: 0;
+}
+
+.paragrafo p {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+.text {
+    width: 15rem;
+    height: 4rem;
+}
+
+.card-receitas-classicas {
+    /* margin-left: 1.175rem !important; */
+    width: 29.063rem !important;
+    margin-top: 2.125rem;
+}
+
+.card-receitas-classicas img {
+    width: 5rem;
+}
+
+.card-receitas-classicas p {
+    font-size: 0.95rem;
+    text-align: center;
+    /* white-space: nowrap; */
+    font-weight: 800;
+    color: #7C7B7A !important;
+}
+
+.card-veganas {
+    /* margin-left: 1.175rem !important; */
+    width: 29.063rem !important;
+    margin-top: 2.125rem;
+}
+
+.card-veganas img {
+    width: 5rem;
+}
+
+.card-veganas p {
+    font-size: 0.95rem;
+    text-align: center;
+    /* white-space: nowrap; */
+    font-weight: 800;
+    color: #7C7B7A !important;
+}
+
+
