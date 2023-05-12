@@ -7,7 +7,11 @@
     font-family: 'DM Sans', sans-serif;
 }
 
-.btn-md {
+.container {
+    padding-right: 0px !important;
+}
+
+.btn-sm {
     font-weight: 700 !important;
     border: 1px solid rgb(172, 172, 172) !important;
     border-radius: 18px !important;
@@ -22,15 +26,22 @@
 }
 
 .sub-menu {
-    width: 450px !important;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.sub-menu button {
+    display: inline-block;
+}
+
+.sub-menu::-webkit-scrollbar {
+    display: none;
 }
 
 .card-receitas {
     background-color: #EA1D2C !important;
-    width: 24.375rem;
+    width: 97%;
     height: 5.625rem;
-    /* padding: 0.938rem; */
-    /* margin-left: 0.813rem; */
     margin-top: 1.538rem;
     border-radius: 1rem !important;
 }
@@ -64,28 +75,30 @@
 }
 
 .card-chefs {
-    /* margin-left: 1.175rem !important; */
-    width: 29.063rem !important;
+    overflow: auto;
     margin-top: 2.125rem;
 }
 
+.card-chefs::-webkit-scrollbar {
+    display: none;
+}
+
 .card-chefs img {
-    width: 7rem;
+    width: 6rem;
 }
 
 .card-chefs p {
-    font-size: 0.95rem;
-    white-space: nowrap;
+    font-size: 0.75rem;
+    /* white-space: nowrap; */
     font-weight: 800;
     color: #7C7B7A !important;
 }
 
 .card-aprenda {
     border: none !important;
-    width: 24.375rem;
+    width: 97%;
     height: 5.625rem;
     background-color:#F8F8F8 !important;
-    /* margin-left: 0.813rem; */
 }
 
 .qrcode img {
@@ -95,7 +108,6 @@
 
 .titulo h4 {
     font-weight: 600;
-    /* font-size: 1.1rem; */
     margin: 0;
 }
 
@@ -110,17 +122,20 @@
 }
 
 .card-receitas-classicas {
-    /* margin-left: 1.175rem !important; */
-    width: 29.063rem !important;
+    overflow: auto;
     margin-top: 2.125rem;
 }
 
+.card-receitas-classicas::-webkit-scrollbar {
+    display: none;
+}
+
 .card-receitas-classicas img {
-    width: 5rem;
+    width: 4.12rem;
 }
 
 .card-receitas-classicas p {
-    font-size: 0.95rem;
+    font-size: 0.75rem;
     text-align: center;
     /* white-space: nowrap; */
     font-weight: 800;
@@ -128,21 +143,65 @@
 }
 
 .card-veganas {
-    /* margin-left: 1.175rem !important; */
-    width: 29.063rem !important;
+    overflow: auto;
     margin-top: 2.125rem;
 }
 
+
+.card-veganas::-webkit-scrollbar {
+    display: none;
+}
+
 .card-veganas img {
-    width: 5rem;
+    width: 4.12rem;
 }
 
 .card-veganas p {
-    font-size: 0.95rem;
+    font-size: 0.75rem;
     text-align: center;
     /* white-space: nowrap; */
     font-weight: 800;
     color: #7C7B7A !important;
 }
 
+.cards-cards {
+    overflow: auto;
+}
+
+.card-receitas-anteriores {
+    border: none !important;
+}
+
+.logo img{
+    width: 6rem;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #ffffff;
+    color: #A4A19F;
+    text-align: center;
+    border-top: 1px solid #EFEFEF;
+}
+
+.header {
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 4.5rem;
+    background-color: #ffffff !important;
+    color: #000000;
+    text-align: center;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+li::marker {
+    padding: 0 !important;
+}
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,24 +13,42 @@
     <div class="container">
 
         <!-- header -->
-        <div class="navbar mt-2">
-            <div class="container-fluid">
+        <div class="header d-flex justify-content-between align-items-center p-4">
+            <div class="arrow-left">
                 <img src="assets/images/arrow-left.png" alt="">
-
-                <h6 class="mt-2" style="font-weight: 700;">RECEITAS</h6>
-
+            </div>
+            <div class="receitas">
+                <h6 class="" style="font-weight: 700;">RECEITAS</h6>
+            </div>
+            <div class="header-qrcode">
                 <img src="assets/images/qrcode.png" alt="" srcset="">
             </div>
         </div>
 
-        <hr class="m-0">
+        <div class="mt-5">
+            &nbsp;
+        </div>
 
         <!-- submenu item -->
-        <div class="sub-menu item mt-3 d-flex justify-content-around align-itens-center">
-            <button class="btn btn-md btn-light btn-active">Rápidas</button>
-            <button class="btn btn-md btn-light">Ordernar <img src="assets/images/arrow-down.png" alt="" srcset=""></button>
-            <button class="btn btn-md btn-light">Chefs famosos</button>
-            <button class="btn btn-md btn-light">Receitas</button>
+        <div class="sub-menu item mt-3 d-flex justify-content-between align-items-center">
+            <div class="pe-3">
+                <button class="btn btn-sm btn-light btn-active">Rápidas</button>
+            </div>
+            <div class="pe-3">
+                <button class="btn btn-sm btn-light">Ordernar <img src="assets/images/arrow-down.png" alt="" srcset=""></button>
+            </div>
+
+            <div class="pe-3">
+                <button class="btn btn-sm btn-light">Chefs famosos</button>
+            </div>
+
+            <div class="pe-3">
+                <button class="btn btn-sm btn-light">Receitas</button>
+            </div>
+
+            <div class="pe-3">
+                <button class="btn btn-sm btn-light">Rápidas</button>
+            </div>
         </div>
 
 
@@ -49,20 +67,20 @@
         <div class="card-chefs d-flex">
             <div class="pe-2">
                 <img class="mb-2" src="assets/images/jacan.png" alt="" srcset="">
-                <p>Erick Jacquin</p>
+                <p class="text-center">Erick Jacquin</p>
             </div>
             <div class="pe-2">
                 <img class="mb-2" src="assets/images/paola.png" alt="" srcset="">
-                <p>Paola Carosella</p>
+                <p class="text-center">Paola Carosella</p>
             </div>
 
             <div class="pe-2">
                 <img class="mb-2" src="assets/images/alessandro.png" alt="" srcset="">
-                <p>Alessandro Eller</p>
+                <p class="text-center">Alessandro Eller</p>
             </div>
             <div class="pe-2">
-                <img class="mb-2" src="assets/images/alessandro.png" alt="" srcset="">
-                <p>Liberar</p>
+                <img class="mb-2" src="assets/images/last-chefe.png" alt="" srcset="">
+                <p class="text-center">Liberar mais receitas</p>
             </div>
         </div>
 
@@ -80,13 +98,13 @@
                 </div>
             </div>
             <div class="arrow">
-                <img src="assets/images/arrow-left.png" alt="" srcset="">
+                <img src="assets/images/arrow-rigth.png" alt="" srcset="">
             </div>
         </div>
 
-        <div class="d-flex justify-content-between align-items-center  mt-4">
+        <div class="d-flex justify-content-between align-items-center  mt-4" style="width: 97%;">
             <h4 class="fw-bold">Receitas clássicas <span class="fst-italic fs-6">do iFood</span></h4>
-            <p class="text-danger">Ver mais</p>
+            <p style="color: #EA1D2C;">Ver mais</p>
         </div>
 
         <!-- card receitas classicas -->
@@ -135,9 +153,9 @@
             </div>
         </div>
 
-        <div class="d-flex justify-content-between align-items-center  mt-4">
+        <div class="d-flex justify-content-between align-items-center  mt-4" style="width: 97%;">
             <h4 class="fw-bold">Veganas </h4>
-            <p class="text-danger">Ver mais</p>
+            <p style="color: #EA1D2C">Ver mais</p>
         </div>
 
         <!-- card veganas -->
@@ -185,11 +203,111 @@
         </div>
 
         <!-- cards -->
-
-        <div class="cards d-flex justify-content-between align-items-center mt-2">
+        <div class="cards cards-cards d-flex justify-content-between align-items-center mt-2">
             <img class="pe-3" src="assets/images/card-centro-oeste.png" alt="" srcset="">
             <img class="pe-3" src="assets/images/card-italia.png" alt="" srcset="">
             <img class="pe-3" src="assets/images/card-natal.png" alt="" srcset="">
+            <img class="pe-3" src="assets/images/super-pontos.png" alt="" srcset="">
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mt-4" style="width: 97%;">
+            <h4 class="fw-bold">Receitas anteriores </h4>
+            <p style="color: #EA1D2C">Ver mais</p>
+        </div>
+
+        <div class="card card-receitas-anteriores d-flex flex-row justify-content-start mt-2">
+            <div class="logo">
+                <img class="pe-3" src="assets/images/divino.png" alt="" srcset="">
+            </div>
+            <div class="conteudo">
+                <h4 class="fw-bold fs-6 text-nowrap ">Maionese de Abacate Vegana</h4>
+                <p class="m-0"> <img src="assets/images/star.png" alt="" srcset=""><span style="color: #D9B600;"> 4,6 Vegano</span></p>
+                <p class="mt-2 text-secondary">Tempo de preparo <span style="color: #000000 !important;" class="fw-bold">40mins</span></p>
+            </div>
+        </div>
+        <div class="card card-receitas-anteriores d-flex flex-row justify-content-start mt-2">
+            <div class="logo">
+                <img class="pe-3" src="assets/images/divino.png" alt="" srcset="">
+            </div>
+            <div class="conteudo">
+                <h4 class="fw-bold fs-6 text-nowrap ">Bolo de Frutas Veganas</h4>
+                <p class="m-0"> <img src="assets/images/star.png" alt="" srcset=""><span style="color: #D9B600;"> 5,0 Vegano</span></p>
+                <p class="mt-2 text-secondary">Tempo de preparo <span style="color: #000000 !important;" class="fw-bold">40mins</span></p>
+            </div>
+        </div>
+        <div class="card card-receitas-anteriores d-flex flex-row justify-content-start mt-2">
+            <div class="logo">
+                <img class="pe-3" src="assets/images/divino.png" alt="" srcset="">
+            </div>
+            <div class="conteudo">
+                <h4 class="fw-bold fs-6 text-nowrap ">Pão de Queijo</h4>
+                <p class="m-0"> <img src="assets/images/star.png" alt="" srcset=""><span style="color: #D9B600;"> 3,0 Vegano</span></p>
+                <p class="mt-2 text-secondary">Tempo de preparo <span style="color: #000000 !important;" class="fw-bold">40mins</span></p>
+            </div>
+        </div>
+        <div class="card card-receitas-anteriores d-flex flex-row justify-content-start mt-2">
+            <div class="logo">
+                <img class="pe-3" src="assets/images/divino.png" alt="" srcset="">
+            </div>
+            <div class="conteudo">
+                <h4 class="fw-bold fs-6 text-nowrap ">Muffim de Morango</h4>
+                <p class="m-0"> <img src="assets/images/star.png" alt="" srcset=""><span style="color: #D9B600;"> 5,0 Vegano</span></p>
+                <p class="mt-2 text-secondary">Tempo de preparo <span style="color: #000000 !important;" class="fw-bold">40mins</span></p>
+            </div>
+        </div>
+        <div class="card card-receitas-anteriores d-flex flex-row justify-content-start mt-2">
+            <div class="logo">
+                <img class="pe-3" src="assets/images/divino.png" alt="" srcset="">
+            </div>
+            <div class="conteudo">
+                <h4 class="fw-bold fs-6 text-nowrap ">Chocolate Quente</h4>
+                <p class="m-0"> <img src="assets/images/star.png" alt="" srcset=""><span style="color: #D9B600;"> 5,0 Vegano</span></p>
+                <p class="mt-2 text-secondary">Tempo de preparo <span style="color: #000000 !important;" class="fw-bold">40mins</span></p>
+            </div>
+        </div>
+        <div class="card card-receitas-anteriores d-flex flex-row justify-content-start mt-2">
+            <div class="logo">
+                <img class="pe-3" src="assets/images/divino.png" alt="" srcset="">
+            </div>
+            <div class="conteudo">
+                <h4 class="fw-bold fs-6 text-nowrap ">Maionese de Abacate Vegana</h4>
+                <p class="m-0"> <img src="assets/images/star.png" alt="" srcset=""><span style="color: #D9B600;"> 4,6 Vegano</span></p>
+                <p class="mt-2 text-secondary">Tempo de preparo <span style="color: #000000 !important;" class="fw-bold">40mins</span></p>
+            </div>
+        </div>
+        <div class="card card-receitas-anteriores d-flex flex-row justify-content-start mt-2">
+            <div class="logo">
+                <img class="pe-3" src="assets/images/divino.png" alt="" srcset="">
+            </div>
+            <div class="conteudo">
+                <h4 class="fw-bold fs-6 text-nowrap ">Maionese de Abacate Vegana</h4>
+                <p class="m-0"> <img src="assets/images/star.png" alt="" srcset=""><span style="color: #D9B600;"> 4,6 Vegano</span></p>
+                <p class="mt-2 text-secondary">Tempo de preparo <span style="color: #000000 !important;" class="fw-bold">40mins</span></p>
+            </div>
+        </div>
+
+        <div class="mt-5">
+            &nbsp;
+        </div>
+
+        <!-- footer -->
+        <div class="footer d-flex justify-content-between align-items-center p-4">
+            <div class="home">
+                <img src="assets/images/home.png" alt="">
+                <p class="text-dark">Início</p>
+            </div>
+            <div class="home">
+                <img src="assets/images/search.png" alt="">
+                <p>Buscar</p>
+            </div>
+            <div class="home">
+                <img src="assets/images/pedidos.png" alt="">
+                <p>Pedidos</p>
+            </div>
+            <div class="home">
+                <img src="assets/images/perfil-outlined.png" alt="">
+                <p>Perfil</p>
+            </div>
         </div>
 
     </div>
